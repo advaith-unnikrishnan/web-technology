@@ -8,6 +8,7 @@ body {
   color: #fff;
 }
 
+/* ==== Hero Section === */
 .hero {
   margin: 1rem;
   text-align: center;
@@ -23,7 +24,43 @@ body {
     font-size: larger;
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
 
+
+/* === Genre Section === */
+.genre-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 2rem;
+}
+
+.genre-list > li > a{
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #64dfdf;
+  border: 1.5px solid #64dfdf;
+  border-radius: 1rem;
+}
+
+.genre-list > li >a:hover{
+  background-color: #64dfdf;
+  color: #000;
+}
+
+
+/* === Section ==== */
+
+.section-name{
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+/* === Book Section */
 .book {
   background-color: #6930c3;
   margin: 1rem;
@@ -32,4 +69,19 @@ body {
   border: 1.5px solid #48426d;
   border-radius: 2rem;
   text-align: justify;
+}
+
+.book > h2{
+  margin: 1rem 0rem;
+}
+
+.book > h4{
+  margin: 1rem 0rem;
+}
+
+.book-list{
+  display: flex;
+  padding: 1rem;
+  list-style: none;
+  flex-wrap: wrap;
 }
